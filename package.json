@@ -1,0 +1,40 @@
+{
+  "name": "file-viewer",
+  "version": "0.0.0",
+  "description": "A file viewer app written in CanJS using Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "node steal-build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "CanJS",
+    "StealJS",
+    "file browser"
+  ],
+  "author": "Juan Orozco",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0",
+    "fs-extra": "^0.30.0",
+    "steal-tools": "^0.16.5"
+  },
+  "dependencies": {
+    "can": "^2.3.24",
+    "debug": "^2.2.0",
+    "jquery": "^3.0.0",
+    "steal": "^0.16.21"
+  },
+  "system": {
+    "npmAlgorithm": "flat"
+  }
+}
